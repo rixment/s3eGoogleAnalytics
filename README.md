@@ -1,10 +1,8 @@
-s3eGoogleAnalytics
-==================
+# s3eGoogleAnalytics
 
 Android's extension for GoogleAnalytics
 
-HOW TO INTEGRATE (WINDOWS PLATFORM):
-------------------------------------
+## How to integrate (Windows)
 
 1) Have your Marmalade SDK installed on your machine
 
@@ -12,8 +10,7 @@ HOW TO INTEGRATE (WINDOWS PLATFORM):
 
 3) Include the "s3eGoogleAnalytics" in your project's mkb file
 
-USAGE
------
+## Usage
 
 For initialization simply trigger s3eGoogleAnalytics_Init(const char* ua_id, const char* screen_name) where:
 - ua_id - your tracking id from your GoogleAnalytics account
@@ -22,3 +19,6 @@ For initialization simply trigger s3eGoogleAnalytics_Init(const char* ua_id, con
 To start a new session simply use s3eGoogleAnalytics_Start() and to end it use s3eGoogleAnalytics_End()
 
 [1] https://developers.google.com/analytics/devguides/collection/android/v3/screens
+
+## Copyright and License
+Copyright 2005-2020 Rixment. Code released under the [MIT](./LICENSE) license.
