@@ -12,12 +12,12 @@ Google Analytics extension for Marmalade SDK (Android)
 
 ## Usage
 
-In order to initialise s3eGoogleAnalytics extension trigger s3eGoogleAnalytics_Init(const char* ua_id, const char* screen_name) where:
-- ua_id - tracking id from your Google Analytics account
-- screen_name - on mobile most likely your game's package name, for example: com.companyname.mygame. For more information you can take a look at Google's [documentation](https://developers.google.com/analytics/devguides/collection/android/v3/screens
+In order to initialise s3eGoogleAnalytics extension trigger `s3eGoogleAnalytics_Init(const char* ua_id, const char* screen_name)` where:
+- `ua_id` - tracking id from your Google Analytics account
+- `screen_name` - on mobile most likely your game's package name, for example: com.companyname.mygame. For more information you can take a look at Google's [documentation](https://developers.google.com/analytics/devguides/collection/android/v3/screens
 ).
 
-To start a new session use s3eGoogleAnalytics_Start() and to end it - s3eGoogleAnalytics_End()
+To start a new session use `s3eGoogleAnalytics_Start()` and to end it - `s3eGoogleAnalytics_End()`
 
 ## Copyright and License
 Copyright 2005-2020 Rixment. Code released under the [MIT](./LICENSE) license.
